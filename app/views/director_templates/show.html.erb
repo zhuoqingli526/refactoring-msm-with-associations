@@ -1,0 +1,168 @@
+<h1>
+  Director #<%= @the_director.id %> details
+</h1>
+
+<div>
+  <a href="/directors">
+    Go back
+  </a>
+</div>
+
+<div>
+  <a href="/delete_director/<%= @the_director.id %>">
+    Delete director
+  </a>
+</div>
+
+<hr>
+
+<form action="/modify_director/<%= @the_director.id %>" method="post">
+  <div>
+    <label for="name_box">
+      Name
+    </label>
+
+    <input type="text" id="name_box" name="query_name" value="<%= @the_director.name %>">
+  </div>
+
+  <div>
+    <label for="dob_box">
+      Dob
+    </label>
+
+    <input type="date" id="dob_box" name="query_dob" value="<%= @the_director.dob %>">
+  </div>
+
+  <div>
+    <label for="bio_box">
+      Bio
+    </label>
+
+    <textarea id="bio_box" name="query_bio" rows="3"><%= @the_director.bio %></textarea>
+  </div>
+
+  <div>
+    <label for="image_box">
+      Image
+    </label>
+
+    <input type="text" id="image_box" name="query_image" value="<%= @the_director.image %>">
+  </div>
+
+  <button>
+    Update director
+  </button>
+</form>
+
+<hr>
+
+<dl>
+  <dt>
+    Name
+  </dt>
+  <dd>
+    <%= @the_director.name %>
+  </dd>
+
+  <dt>
+    Dob
+  </dt>
+  <dd>
+    <%= @the_director.dob %>
+  </dd>
+
+  <dt>
+    Bio
+  </dt>
+  <dd>
+    <%= @the_director.bio %>
+  </dd>
+
+  <dt>
+    Image
+  </dt>
+  <dd>
+    <img src="<%= @the_director.image %>" style="width:250px;">
+  </dd>
+
+  <dt>
+    Created at
+  </dt>
+  <dd>
+    <%= time_ago_in_words(@the_director.created_at) %> ago
+  </dd>
+
+  <dt>
+    Updated at
+  </dt>
+  <dd>
+    <%= time_ago_in_words(@the_director.updated_at) %> ago
+  </dd>
+</dl>
+
+<hr>
+
+<h2>Filmography</h2>
+
+<table border="1">
+  <tr>
+    <th>
+      ID
+    </th>
+
+    <th>
+      Image
+    </th>
+
+    <th>
+      Title
+    </th>
+
+    <th>
+      Year
+    </th>
+
+    <th>
+      Director
+    </th>
+
+    <th>
+    </th>
+  </tr>
+
+  <% the_id = @the_director.id %>
+
+  <% matching_movies = Movie.where({ :director_id => the_id }) %>
+
+  <% films = matching_movies.order({ :year => :asc }) %>
+
+  <% films.each do |a_movie| %>
+    <tr>
+      <td>
+        <%= a_movie.id %>
+      </td>
+
+      <td>
+        <img src="<%= a_movie.image %>" style="width:250px;">
+      </td>
+
+      <td>
+        <%= a_movie.title %>
+      </td>
+
+      <td>
+        <%= a_movie.year %>
+      </td>
+
+      <td>
+        <%= Director.where({ :id => a_movie.director_id }).at(0).name %>
+      </td>
+
+      <td>
+        <a href="/movies/<%= a_movie.id %>">
+          Show details
+        </a>
+      </td>
+    </tr>
+  <% end %>
+</table>
