@@ -1,3 +1,3 @@
-# refactoring-msm-gui-1
+# refactoring-msm-with-associations
 
 Target: https://msm-gui.matchthetarget.com/
