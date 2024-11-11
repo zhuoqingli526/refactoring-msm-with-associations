@@ -37,9 +37,16 @@ describe "/movies" do
     initial_number_of_movies = Movie.count
     test_title = "Flubber"
 
+    director = Director.new
+    director.name = "Travis McElroy"
+    director.dob = 38.years.ago
+    director.image = ""
+    director.save
+
     visit "/movies"
 
     fill_in "Title", with: test_title
+    fill_in "Director ID", with: director.id
     click_on "Create movie"
     final_number_of_movies = Movie.count
     expect(final_number_of_movies).to eq(initial_number_of_movies + 1)
@@ -51,9 +58,16 @@ describe "/movies" do
     initial_number_of_movies = Movie.count
     test_title = "Flubber"
 
+    director = Director.new
+    director.name = "Travis McElroy"
+    director.dob = 38.years.ago
+    director.image = ""
+    director.save
+
     visit "/movies"
 
     fill_in "Title", with: test_title
+    fill_in "Director ID", with: director.id
     click_on "Create movie"
 
     last_movie = Movie.order(created_at: :asc).last
@@ -182,6 +196,7 @@ describe "/movies/[ID]" do
 
     movie = Movie.new
     movie.title = "Flubber"
+    movie.director_id = director.id
     movie.image = "https://some.test/image-#{Time.now.to_i}.jpg"
     movie.description = "Green guy soft"
     movie.save
@@ -202,6 +217,7 @@ describe "/movies/[ID]" do
 
     movie = Movie.new
     movie.title = "Flubber"
+    movie.director_id = director.id
     movie.image = "https://some.test/image-#{Time.now.to_i}.jpg"
     movie.description = "Green guy soft"
     movie.save
@@ -222,6 +238,7 @@ describe "/movies/[ID]" do
 
     movie = Movie.new
     movie.title = "Flubber"
+    movie.director_id = director.id
     movie.image = "https://some.test/image-#{Time.now.to_i}.jpg"
     movie.description = "Green guy soft"
     movie.save
@@ -248,6 +265,7 @@ describe "/movies/[ID]" do
 
     movie = Movie.new
     movie.title = "Flubber"
+    movie.director_id = director.id
     movie.image = "https://some.test/image-#{Time.now.to_i}.jpg"
     movie.description = "Green guy soft"
     movie.save
