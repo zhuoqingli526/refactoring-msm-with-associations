@@ -6,6 +6,12 @@ RSpec.describe Movie, type: :model do
   end
 end
 
+RSpec.describe Movie, type: :model do
+  describe "has many cast", points: 2 do
+    it { should have_many(:cast).through(:characters).source(:actor) }
+  end
+end
+
 RSpec.describe Director, type: :model do
   describe "has many filmography", points: 2 do
     it { should have_many(:filmography).class_name("Movie") }
