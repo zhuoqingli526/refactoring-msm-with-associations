@@ -1,0 +1,470 @@
+[
+  {
+    "year": "2015 (88th)",
+    "category": "BEST PICTURE",
+    "nominations": [
+      {
+        "film": "The Big Short",
+        "producers": "Brad Pitt, Dede Gardner and Jeremy Kleiner",
+        "winner": false
+      },
+      {
+        "film": "Bridge of Spies",
+        "producers": "Steven Spielberg, Marc Platt and Kristie Macosko Krieger",
+        "winner": false
+      },
+      {
+        "film": "Brooklyn",
+        "producers": "Finola Dwyer and Amanda Posey",
+        "winner": false
+      },
+      {
+        "film": "Mad Max: Fury Road",
+        "producers": "Doug Mitchell and George Miller",
+        "winner": false
+      },
+      {
+        "film": "The Martian",
+        "producers": "Simon Kinberg, Ridley Scott, Michael Schaefer and Mark Huffam",
+        "winner": false
+      },
+      {
+        "film": "The Revenant",
+        "producers": "Arnon Milchan, Steve Golin, Alejandro G. Iñárritu, Mary Parent and Keith Redmon",
+        "winner": false
+      },
+      {
+        "film": "Room",
+        "producers": "Ed Guiney",
+        "winner": false
+      },
+      {
+        "film": "Spotlight",
+        "producers": "Michael Sugar, Steve Golin, Nicole Rocklin and Blye Pagon Faust",
+        "winner": true,
+        "acceptanceSpeechUrl": "http://aaspeechesdb.oscars.org/ics-wpd/url.ashx?id=088-16&qn=AAspeeches"
+      }
+    ]
+  },
+  {
+    "year": "2016 (89th)",
+    "category": "BEST PICTURE",
+    "nominations": [
+      {
+        "film": "Arrival",
+        "producers": "Shawn Levy, Dan Levine, Aaron Ryder and David Linde",
+        "winner": false
+      },
+      {
+        "film": "Fences",
+        "producers": "Scott Rudin, Denzel Washington and Todd Black",
+        "winner": false
+      },
+      {
+        "film": "Hacksaw Ridge",
+        "producers": "Bill Mechanic and David Permut",
+        "winner": false
+      },
+      {
+        "film": "Hell or High Water",
+        "producers": "Carla Hacken and Julie Yorn",
+        "winner": false
+      },
+      {
+        "film": "Hidden Figures",
+        "producers": "Donna Gigliotti, Peter Chernin, Jenno Topping, Pharrell Williams and Theodore Melfi",
+        "winner": false
+      },
+      {
+        "film": "La La Land",
+        "producers": "Fred Berger, Jordan Horowitz and Marc Platt",
+        "winner": false
+      },
+      {
+        "film": "Lion",
+        "producers": "Emile Sherman, Iain Canning and Angie Fielder",
+        "winner": false
+      },
+      {
+        "film": "Manchester by the Sea",
+        "producers": "Matt Damon, Kimberly Steward, Chris Moore, Lauren Beck and Kevin J. Walsh",
+        "winner": false
+      },
+      {
+        "film": "Moonlight",
+        "producers": "Adele Romanski, Dede Gardner and Jeremy Kleiner",
+        "winner": true,
+        "acceptanceSpeechUrl": "http://aaspeechesdb.oscars.org/ics-wpd/url.ashx?id=089-16&qn=AAspeeches"
+      }
+    ]
+  },
+  {
+    "year": "2017 (90th)",
+    "category": "BEST PICTURE",
+    "nominations": [
+      {
+        "film": "Call Me by Your Name",
+        "producers": "Peter Spears, Luca Guadagnino, Emilie Georges and Marco Morabito",
+        "winner": false
+      },
+      {
+        "film": "Darkest Hour",
+        "producers": "Tim Bevan, Eric Fellner, Lisa Bruce, Anthony McCarten and Douglas Urbanski",
+        "winner": false
+      },
+      {
+        "film": "Dunkirk",
+        "producers": "Emma Thomas and Christopher Nolan",
+        "winner": false
+      },
+      {
+        "film": "Get Out",
+        "producers": "Sean McKittrick, Jason Blum, Edward H. Hamm Jr. and Jordan Peele",
+        "winner": false
+      },
+      {
+        "film": "Lady Bird",
+        "producers": "Scott Rudin, Eli Bush and Evelyn O'Neill",
+        "winner": false
+      },
+      {
+        "film": "Phantom Thread",
+        "producers": "JoAnne Sellar, Paul Thomas Anderson, Megan Ellison and Daniel Lupi",
+        "winner": false
+      },
+      {
+        "film": "The Post",
+        "producers": "Amy Pascal, Steven Spielberg and Kristie Macosko Krieger",
+        "winner": false
+      },
+      {
+        "film": "The Shape of Water",
+        "producers": "Guillermo del Toro and J. Miles Dale",
+        "winner": true,
+        "acceptanceSpeechUrl": "http://aaspeechesdb.oscars.org/ics-wpd/url.ashx?id=090-16&qn=AAspeeches"
+      },
+      {
+        "film": "Three Billboards outside Ebbing, Missouri",
+        "producers": "Graham Broadbent, Pete Czernin and Martin McDonagh",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "year": "2018 (91st)",
+    "category": "BEST PICTURE",
+    "nominations": [
+      {
+        "film": "Black Panther",
+        "producers": "Kevin Feige",
+        "winner": false
+      },
+      {
+        "film": "BlacKkKlansman",
+        "producers": "Sean McKittrick, Jason Blum, Raymond Mansfield, Jordan Peele and Spike Lee",
+        "winner": false
+      },
+      {
+        "film": "Bohemian Rhapsody",
+        "producers": "Graham King",
+        "winner": false
+      },
+      {
+        "film": "The Favourite",
+        "producers": "Ceci Dempsey, Ed Guiney, Lee Magiday and Yorgos Lanthimos",
+        "winner": false
+      },
+      {
+        "film": "Green Book",
+        "producers": "Jim Burke, Charles B. Wessler, Brian Currie, Peter Farrelly and Nick Vallelonga",
+        "winner": true,
+        "acceptanceSpeechUrl": "http://aaspeechesdb.oscars.org/ics-wpd/url.ashx?id=091-16&qn=AAspeeches"
+      },
+      {
+        "film": "Roma",
+        "producers": "Gabriela Rodríguez and Alfonso Cuarón",
+        "winner": false
+      },
+      {
+        "film": "A Star Is Born",
+        "producers": "Bill Gerber, Bradley Cooper and Lynette Howell Taylor",
+        "winner": false
+      },
+      {
+        "film": "Vice",
+        "producers": "Dede Gardner, Jeremy Kleiner, Adam McKay and Kevin Messick",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "year": "2019 (92nd)",
+    "category": "BEST PICTURE",
+    "nominations": [
+      {
+        "film": "Ford v Ferrari",
+        "producers": "Peter Chernin, Jenno Topping and James Mangold",
+        "winner": false
+      },
+      {
+        "film": "The Irishman",
+        "producers": "Martin Scorsese, Robert De Niro, Jane Rosenthal and Emma Tillinger Koskoff",
+        "winner": false
+      },
+      {
+        "film": "Jojo Rabbit",
+        "producers": "Carthew Neal, Taika Waititi and Chelsea Winstanley",
+        "winner": false
+      },
+      {
+        "film": "Joker",
+        "producers": "Todd Phillips, Bradley Cooper and Emma Tillinger Koskoff",
+        "winner": false
+      },
+      {
+        "film": "Little Women",
+        "producers": "Amy Pascal",
+        "winner": false
+      },
+      {
+        "film": "Marriage Story",
+        "producers": "Noah Baumbach and David Heyman",
+        "winner": false
+      },
+      {
+        "film": "1917",
+        "producers": "Sam Mendes, Pippa Harris, Jayne-Ann Tenggren and Callum McDougall",
+        "winner": false
+      },
+      {
+        "film": "Once upon a Time...in Hollywood",
+        "producers": "David Heyman, Shannon McIntosh and Quentin Tarantino",
+        "winner": false
+      },
+      {
+        "film": "Parasite",
+        "producers": "Kwak Sin Ae and Bong Joon Ho",
+        "winner": true,
+        "acceptanceSpeechUrl": "http://aaspeechesdb.oscars.org/ics-wpd/url.ashx?id=092-16&qn=AAspeeches"
+      }
+    ]
+  },
+  {
+    "year": "2020 (93rd)",
+    "category": "BEST PICTURE",
+    "nominations": [
+      {
+        "film": "The Father",
+        "producers": "David Parfitt, Jean-Louis Livi and Philippe Carcassonne",
+        "winner": false
+      },
+      {
+        "film": "Judas and the Black Messiah",
+        "producers": "Shaka King, Charles D. King and Ryan Coogler",
+        "winner": false
+      },
+      {
+        "film": "Mank",
+        "producers": "Ceán Chaffin, Eric Roth and Douglas Urbanski",
+        "winner": false
+      },
+      {
+        "film": "Minari",
+        "producers": "Christina Oh",
+        "winner": false
+      },
+      {
+        "film": "Nomadland",
+        "producers": "Frances McDormand, Peter Spears, Mollye Asher, Dan Janvey and Chloé Zhao",
+        "winner": true,
+        "acceptanceSpeechUrl": "http://aaspeechesdb.oscars.org/ics-wpd/url.ashx?id=093-16&qn=AAspeeches"
+      },
+      {
+        "film": "Promising Young Woman",
+        "producers": "Ben Browning, Ashley Fox, Emerald Fennell and Josey McNamara",
+        "winner": false
+      },
+      {
+        "film": "Sound of Metal",
+        "producers": "Bert Hamelinck and Sacha Ben Harroche",
+        "winner": false
+      },
+      {
+        "film": "The Trial of the Chicago 7",
+        "producers": "Marc Platt and Stuart Besser",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "year": "2021 (94th)",
+    "category": "BEST PICTURE",
+    "nominations": [
+      {
+        "film": "Belfast",
+        "producers": "Laura Berwick, Kenneth Branagh, Becca Kovacik and Tamar Thomas",
+        "winner": false
+      },
+      {
+        "film": "CODA",
+        "producers": "Philippe Rousselet, Fabrice Gianfermi and Patrick Wachsberger",
+        "winner": true,
+        "acceptanceSpeechUrl": "http://aaspeechesdb.oscars.org/ics-wpd/url.ashx?id=094-16&qn=AAspeeches"
+      },
+      {
+        "film": "Don't Look Up",
+        "producers": "Adam McKay and Kevin Messick",
+        "winner": false
+      },
+      {
+        "film": "Drive My Car",
+        "producers": "Teruhisa Yamamoto",
+        "winner": false
+      },
+      {
+        "film": "Dune",
+        "producers": "Mary Parent, Denis Villeneuve and Cale Boyter",
+        "winner": false
+      },
+      {
+        "film": "King Richard",
+        "producers": "Tim White, Trevor White and Will Smith",
+        "winner": false
+      },
+      {
+        "film": "Licorice Pizza",
+        "producers": "Sara Murphy, Adam Somner and Paul Thomas Anderson",
+        "winner": false
+      },
+      {
+        "film": "Nightmare Alley",
+        "producers": "Guillermo del Toro, J. Miles Dale and Bradley Cooper",
+        "winner": false
+      },
+      {
+        "film": "The Power of the Dog",
+        "producers": "Jane Campion, Tanya Seghatchian, Emile Sherman, Iain Canning and Roger Frappier",
+        "winner": false
+      },
+      {
+        "film": "West Side Story",
+        "producers": "Steven Spielberg and Kristie Macosko Krieger",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "year": "2022 (95th)",
+    "category": "BEST PICTURE",
+    "nominations": [
+      {
+        "film": "All Quiet on the Western Front",
+        "producers": "Malte Grunert",
+        "winner": false
+      },
+      {
+        "film": "Avatar: The Way of Water",
+        "producers": "James Cameron and Jon Landau",
+        "winner": false
+      },
+      {
+        "film": "The Banshees of Inisherin",
+        "producers": "Graham Broadbent, Pete Czernin and Martin McDonagh",
+        "winner": false
+      },
+      {
+        "film": "Elvis",
+        "producers": "Baz Luhrmann, Catherine Martin, Gail Berman, Patrick McCormick and Schuyler Weiss",
+        "winner": false
+      },
+      {
+        "film": "Everything Everywhere All at Once",
+        "producers": "Daniel Kwan, Daniel Scheinert and Jonathan Wang",
+        "winner": true,
+        "acceptanceSpeechUrl": "http://aaspeechesdb.oscars.org/ics-wpd/url.ashx?id=095-16&qn=AAspeeches"
+      },
+      {
+        "film": "The Fabelmans",
+        "producers": "Kristie Macosko Krieger, Steven Spielberg and Tony Kushner",
+        "winner": false
+      },
+      {
+        "film": "Tár",
+        "producers": "Todd Field, Alexandra Milchan and Scott Lambert",
+        "winner": false
+      },
+      {
+        "film": "Top Gun: Maverick",
+        "producers": "Tom Cruise, Christopher McQuarrie, David Ellison and Jerry Bruckheimer",
+        "winner": false
+      },
+      {
+        "film": "Triangle of Sadness",
+        "producers": "Erik Hemmendorff and Philippe Bober",
+        "winner": false
+      },
+      {
+        "film": "Women Talking",
+        "producers": "Dede Gardner, Jeremy Kleiner and Frances McDormand",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "year": "2023 (96th)",
+    "category": "BEST PICTURE",
+    "nominations": [
+      {
+        "film": "American Fiction",
+        "producers": "Ben LeClair, Nikos Karamigios, Cord Jefferson and Jermaine Johnson",
+        "winner": false
+      },
+      {
+        "film": "Anatomy of a Fall",
+        "producers": "Marie-Ange Luciani and David Thion",
+        "winner": false
+      },
+      {
+        "film": "Barbie",
+        "producers": "David Heyman, Margot Robbie, Tom Ackerley and Robbie Brenner",
+        "winner": false
+      },
+      {
+        "film": "The Holdovers",
+        "producers": "Mark Johnson",
+        "winner": false
+      },
+      {
+        "film": "Killers of the Flower Moon",
+        "producers": "Dan Friedkin, Bradley Thomas, Martin Scorsese and Daniel Lupi",
+        "winner": false
+      },
+      {
+        "film": "Maestro",
+        "producers": "Bradley Cooper, Steven Spielberg, Fred Berner, Amy Durning and Kristie Macosko Krieger",
+        "winner": false
+      },
+      {
+        "film": "Oppenheimer",
+        "producers": "Emma Thomas, Charles Roven and Christopher Nolan",
+        "winner": true,
+        "acceptanceSpeechUrl": "http://aaspeechesdb.oscars.org/ics-wpd/url.ashx?id=096-16&qn=AAspeeches"
+      },
+      {
+        "film": "Past Lives",
+        "producers": "David Hinojosa, Christine Vachon and Pamela Koffler",
+        "winner": false
+      },
+      {
+        "film": "Poor Things",
+        "producers": "Ed Guiney, Andrew Lowe, Yorgos Lanthimos and Emma Stone",
+        "winner": false
+      },
+      {
+        "film": "The Zone of Interest",
+        "producers": "James Wilson",
+        "winner": false
+      }
+    ]
+  }
+]

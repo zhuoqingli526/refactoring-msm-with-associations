@@ -86,7 +86,7 @@
     </th>
   </tr>
 
-  <% @list_of_movies.each do |movie| %>
+  <% @list_of_movies.order({:year => :desc, :title => :asc}).each do |movie| %>
   <tr>
     <td>
       <%= movie.id %>
