@@ -1,10 +1,8 @@
 desc "Hydrate the database with sample data from JSON"
 task({ :sample_data => :environment}) do
 
-  if Rails.env.production?
-    ActiveRecord::Base.connection.tables.each do |t|
-      ActiveRecord::Base.connection.reset_pk_sequence!(t)
-    end
+  ActiveRecord::Base.connection.tables.each do |t|
+    ActiveRecord::Base.connection.reset_pk_sequence!(t)
   end
 
   # Read and parse the JSON file
@@ -29,9 +27,7 @@ task({ :sample_data => :environment}) do
   Character.insert_all!(json_data["characters"])
   puts "Created #{Character.count} characters"
 
-  if Rails.env.production?
-    ActiveRecord::Base.connection.tables.each do |t|
-      ActiveRecord::Base.connection.reset_pk_sequence!(t)
-    end
+  ActiveRecord::Base.connection.tables.each do |t|
+    ActiveRecord::Base.connection.reset_pk_sequence!(t)
   end
 end
