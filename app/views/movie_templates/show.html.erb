@@ -1,4 +1,4 @@
-<h1>
+    <h1>
   Movie #<%= @the_movie.id %> details
 </h1>
 
@@ -112,12 +112,13 @@
     Director
   </dt>
   <dd>
-    <% the_id = @the_movie.director_id %>
+    <% # the_id = @the_movie.director_id %>
 
-    <% matching_directors = Director.where({ :id => the_id }) %>
+    <% # matching_directors = Director.where({ :id => the_id }) %>
         
-    <% the_director = matching_directors.at(0) %>
+    <% # the_director = matching_directors.at(0) %>
 
+    <%= the_director = @the_movie.director%>
     <% if the_director != nil %>
       <%= the_director.name %>
     <% else %>

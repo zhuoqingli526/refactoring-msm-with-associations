@@ -15,4 +15,7 @@
 class Movie < ApplicationRecord
   validates(:director_id, presence: true)
   validates(:title, uniqueness: true)
+
+  belongs_to(:director, foreign_key: "director_id", class_name: "Director")
+
 end
