@@ -16,4 +16,6 @@ class Director < ApplicationRecord
   # has_many(:filmography, foreign_key:"director_id", class_name: "Movie")
 
   has_many(:filmography, class_name: "Movie")
+
+  # has_many :actors, through: :filmography, source: :cast
 end
