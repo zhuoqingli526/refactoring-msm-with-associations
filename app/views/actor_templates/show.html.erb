@@ -126,11 +126,12 @@
     </th>
   </tr>
 
-  <% a_id = @the_actor.id %>
+  <% #a_id = @the_actor.id %>
 
-  <% matching_characters = Character.where({ :actor_id => a_id }) %>
+  <% # matching_characters = Character.where({ :actor_id => a_id }) %>
 
-  <% matching_characters.each do |a_character| %>
+
+  <% @the_actor.characters.each do |a_character| %>
     <% m_id = a_character.movie_id %>
 
     <% matching_movies = Movie.where({ :id => m_id }) %>
